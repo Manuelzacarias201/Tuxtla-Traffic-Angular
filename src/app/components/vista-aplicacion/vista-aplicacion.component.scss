@@ -1,0 +1,39 @@
+.vista-aplicacion {
+    padding: 50px 0;
+    text-align: left;
+  }
+  
+.vista-aplicacion h3 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+  
+.imagenes-vistas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.vista-aplicaciones {
+  display: flex; /* Para que las imágenes se dispongan en fila */
+  justify-content: center; /* Centra las imágenes */
+  flex-wrap: wrap; /* Permite que las imágenes se adapten al tamaño de la pantalla */
+  padding: 50px; /* Ajuste de padding más razonable */
+  gap: 40px; /* Espacio consistente entre imágenes */
+}
+
+.imagenes-vistas img {
+  width: 400px; /* Ajusta el tamaño de las imágenes */
+  height: 500px; /* Establece una altura consistente para todas las imágenes */
+  object-fit: cover; /* Recorta la imagen para llenar el contenedor sin distorsionarse */
+  border: 4px solid #ccc; /* Bordes alrededor de las imágenes */
+  border-radius: 8px; /* Bordes redondeados para un aspecto más bonito */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombras para darles profundidad */
+  transition: transform 0.3s ease; /* Efecto al pasar el mouse sobre la imagen */
+}
+
+.imagenes-vistas img:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+}
